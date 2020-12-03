@@ -1,0 +1,11 @@
+version: "3"
+services:
+  web1:
+    build:
+      context: .
+    container_name: cross
+    ports:
+      - 8001:80
+    cap_add: 
+      - LINUX_IMMUTABLE
+    tty: True

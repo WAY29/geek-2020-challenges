@@ -1,0 +1,4 @@
+1.Do you know PHP create_function?
+2.Do you know PHP7.4 FFI? 
+3.Do you read php_exec in php source code?
+4.Server can't outgoing!

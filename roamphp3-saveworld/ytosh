@@ -1,0 +1,5 @@
+#!/bin/bash
+
+export TERM=linux
+more /etc/funny
+exit 0

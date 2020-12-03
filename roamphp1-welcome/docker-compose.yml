@@ -1,0 +1,7 @@
+version: "3"
+services:
+  web1:
+    build:
+      context: .
+    ports:
+      - 8001:80

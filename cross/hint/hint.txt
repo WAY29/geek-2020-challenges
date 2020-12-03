@@ -1,0 +1,6 @@
+1.Looking for recent articles about php mt_rand.
+2.Jailbreak escape!
+3.Pay attention to the apache version.
+4.Do you know reverse shell?
+5.Learn something about linux and upgrade reverse shell.
+6.search liuzhuang's password.

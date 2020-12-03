@@ -1,0 +1,8 @@
+version: "3"
+services:
+  web1:
+    build:
+      context: .
+    ports:
+      - 8002:80
+    tty: True

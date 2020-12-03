@@ -1,0 +1,22 @@
+version: "2"
+services:
+  web1:
+    build:
+      context: ./web
+    ports:
+      - "8005:80"
+    tty: True
+    networks:
+      - flagshop
+  xssbot:
+    build:
+      context: ./xssbot
+    networks:
+      - flagshop
+
+networks:
+  flagshop:
+    ipam:
+      config:
+      - subnet: 172.20.0.0/16
+        gateway: 172.20.0.1

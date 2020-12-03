@@ -1,0 +1,6 @@
+User-agent: *
+
+Disallow: 
+    upload/
+    admin/upload.php
+    try_find_easter_eggs
